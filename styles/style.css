@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.body {
+  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  padding: 6% 0;
+}
+
+.h1 {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.gray {
+  background-color: #DDDDDD;
+}
+
+
+.left {
+  text-align: left;
+}
+
+
+.text-input {
+  margin: 10px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  caret-color: white;
+  text-transform: lowercase;
+  text-align: end;
+  color: white;
+  margin: 0;
+  overflow: scroll;
+}
+
+.item-input {
+  grid-area: input;
+  background-color: #2C3244;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  overflow: scroll;
+}
+
+.item-ac {
+  grid-area: ac;
+}
+
+.item-icon {
+  grid-area: icono;
+}
+
+.item-divi {
+  grid-area: divi;
+}
+
+.item-seven {
+  grid-area: seven;
+}
+
+.item-eight {
+  grid-area: eight;
+}
+
+.item-nine {
+  grid-area: nine;
+}
+
+.item-multi {
+  grid-area: multi;
+}
+
+.item-four {
+  grid-area: four;
+}
+
+.item-five {
+  grid-area: five;
+}
+
+.item-six {
+  grid-area: six;
+}
+
+.item-rest {
+  grid-area: rest;
+}
+
+.item-one {
+  grid-area: one;
+}
+
+.item-two {
+  grid-area: two;
+}
+
+.item-three {
+  grid-area: three;
+}
+
+.item-plus {
+  grid-area: plus;
+}
+
+.item.item-zero {
+  grid-area: cero;
+  padding-left: 18px
+}
+
+.item-float {
+  grid-area: float;
+}
+
+.item-equal {
+  grid-area: equal;
+}
+
+.item {
+  color: #fff;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  font-weight: lighter;
+}
+
+.orange {
+  border-right: 1px solid grey;
+  background-color: #F08E33;
+  color: white;
+}
+
+.calculator-wrapper {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 30px 50px 50px 50px 50px 50px;
+  grid-template-areas:
+    "input input input input"
+    "input input input input"
+    "ac ac icono divi"
+    "seven eight nine multi"
+    "four five six rest"
+    "one two three plus"
+    "cero cero float equal"
+  ;
+  justify-content: center;
+}

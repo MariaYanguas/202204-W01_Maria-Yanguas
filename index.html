@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+
+    <link
+      rel="shortcut icon"
+      href="./img/calculadora.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body class="body">
+    <main class="main">
+      <div class="calculator-wrapper">
+        <div class="item item-input">
+          <p id="text-input" class="text-input" role="textbox"></p>
+        </div>
+        <button id="btn-reset" class="btn item item-ac gray left">AC</button>
+        <button id="btn-undo" class="btn item item-icon gray">
+          <i class="fa fa-undo" aria-hidden="true"></i>
+        </button>
+        <button
+          id="btn-calculate-divi"
+          value="divi"
+          class="btn item item-divi orange"
+        >
+          ÷
+        </button>
+
+        <button id="btn-sendNumber-7" class="btn item item-seven gray">
+          7
+        </button>
+        <button id="btn-sendNumber-8" class="btn item item-eight gray">
+          8
+        </button>
+        <button id="btn-sendNumber-9" class="btn item item-nine gray">9</button>
+        <button
+          id="btn-calculate-multi"
+          value="multi"
+          class="btn item item-multi orange"
+        >
+          x
+        </button>
+
+        <button id="btn-sendNumber-4" class="btn item item-four gray">4</button>
+        <button id="btn-sendNumber-5" class="btn item item-five gray">5</button>
+        <button id="btn-sendNumber-6" class="btn item item-six gray">6</button>
+        <button
+          id="btn-calculate-rest"
+          value="rest"
+          class="btn item item-rest orange"
+        >
+          -
+        </button>
+
+        <button
+          id="btn-sendNumber-1"
+          class="btn item item-number item-one gray"
+        >
+          1
+        </button>
+        <button
+          id="btn-sendNumber-2"
+          class="btn item item-number item-two gray"
+        >
+          2
+        </button>
+        <button
+          id="btn-sendNumber-3"
+          class="btn item item-number item-three gray"
+        >
+          3
+        </button>
+        <button
+          id="btn-calculate-sum"
+          value="sum"
+          class="btn item item-plus orange"
+        >
+          +
+        </button>
+
+        <button id="btn-sendNumber-0" class="btn item item-zero gray left">
+          0
+        </button>
+        <button id="btn-sendNumber-dot" class="btn item item-float gray">
+          .
+        </button>
+        <button id="btn-result" class="btn item item-equal orange">=</button>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
